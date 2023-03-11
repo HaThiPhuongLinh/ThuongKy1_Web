@@ -13,12 +13,10 @@
         flex-direction: column;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-
     #menu {
         display: flex;
         justify-content: space-around;
     }
-
     #left_menu {
         display: flex;
         width: 20%;
@@ -26,19 +24,16 @@
         margin-top: 20px;
         margin-left: 30px;
     }
-
     #right_menu {
         display: flex;
-        margin-right: 40px;
+        margin-right: 50px;
     }
-
     #wrapped2 {
         display: flex;
         justify-content: center;
         margin-top: 50px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-
     #item {
         display: flex;
         justify-content: center;
@@ -47,13 +42,11 @@
         border: 1px solid gainsboro;
         border-radius: 7px;
     }
-
     #container {
         width: 620px;
         margin-left: 70px;
         margin-right: 50px;
     }
-
     #button {
         height: 50px;
         width: 200px;
@@ -62,16 +55,13 @@
         border-radius: 7px;
         border: none;
         color: white;
-        margin-top: 8px;
     }
-
     #three_picture {
         width: 1175px;
         height: 300px;
         justify-content: center;
         margin-bottom: 135px;
     }
-
     #in_picture {
         padding-left: 635px;
         width: 620px;
@@ -80,19 +70,62 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin-top: -300px;
     }
-
-    #footer{
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        flex-direction: column;
+    #footer {
+        width: 1445px;
+        height: 430px;
+        background-color: rgb(29, 33, 40);
+        display: flex;
     }
-
+    #footer_left {
+        display: flex;
+        padding-top: 75px;
+        width: 60%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #footer_right {
+        padding-top: 75px;
+        width: 50%;
+        padding-left: 250px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #language_box {
+        border: 1px solid white;
+        background: rgb(49, 49, 51);
+        color: white;
+        width: 130px;
+        height: 35px;
+        border-radius: 5px;
+    }
+    #footer_email{
+            display: flex;
+            width: 435px;
+            height: 25px;
+            border-radius: 10px;
+            border:1px solid rgb(193, 193, 197);
+            padding-bottom: 30px;
+    }
+    #footer_input{
+            width: 280px;
+            height: 50px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: rgb(29, 33, 40);
+            font-size: 20px;
+            padding-left: 20px;
+    }
+    #subscribe_button{
+            height: 55px;
+            width: 130px;
+            font-size: 15px;
+            border-radius: 0 10px 10px 0;
+            background: #459d7a;
+            border: #459D7A;
+            color: white;
+    }
     p {
-        font-size: 18px;
+        font-size: 20px;
     }
 </style>
-
 <body>
     <div id="wrapped">
         <div id="menu">
@@ -107,7 +140,8 @@
             </div>
             <div id="right_menu">
                 <div style="margin-top: 7px;">
-                    <input type="text" placeholder="Search product..." style="border: 1px solid gainsboro;">
+                    <input type="text" placeholder="Search product..."
+                        style="border: 1px solid gainsboro; height: 30px; width: 180px;">
                 </div>
                 <div style="margin-top: 3px;">
                     <img src="Button 1.png" alt="">
@@ -117,7 +151,7 @@
                 </div>
             </div>
         </div>
-        <div style="text-align: center; margin-top: 60px; font-size: 50px;" ;><b>Promotions</b></div>
+        <div style="text-align: center; margin-top: 60px; font-size: 60px;" ;><b>Promotions</b></div>
     </div>
     <div id="wrapped2">
         <div id="item">
@@ -125,9 +159,10 @@
                 <img src="Image 1 (1).png" alt="" width="560px" height="300px">
             </div>
             <div id="container">
-                <h2>Promotion title</h2>
+                <h2 style="font-size: 30px;">Promotion title</h2>
                 <p>Et ipsum irure amet cupidatat mollit exercitation <br>consequat duis aliquip. Reprehenderit Lorem
-                    <br> veniam pariatur esse pariatur in aute tempor au</p>
+                    <br> veniam pariatur esse pariatur in aute tempor au
+                </p>
                 <p id="node1"><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
                 <button id="button">Shop now</button>
             </div>
@@ -136,9 +171,11 @@
     <div id="wrapped2">
         <div id="item">
             <div id="container">
-                <h2>Promotion title</h2>
-                p>Et ipsum irure amet cupidatat mollit exercitation <br>consequat duis aliquip. Reprehenderit Lorem <br>
-                veniam pariatur esse pariatur in aute tempor au</p>
+                <h2 style="font-size: 30px;">Promotion title</h2>
+                <p>Et ipsum irure amet cupidatat mollit exercitation <br>consequat duis aliquip. Reprehenderit Lorem
+                    <br>
+                    veniam pariatur esse pariatur in aute tempor au
+                </p>
                 <p id="node1"><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
                 <button id="button">Shop now</button>
             </div>
@@ -156,6 +193,68 @@
                 <h1>Gift for your skin</h1>
                 <p>Enim officia magna ut esse aliquip irure <br> consectetur dolor dolor commodo et. Cupid</p>
                 <button id="button">Shop now</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer_left">
+            <div style="padding-left: 130px; color: white;">
+                <div style="font-size: 18px;">
+                    <h3>About</h3>
+                </div>
+                <div style="padding-bottom: 25px; font-size: 15px;">Home</div>
+                <div style="padding-bottom: 25px; font-size: 15px;">Shop</div>
+                <div style="padding-bottom: 25px; font-size: 15px;">Our story</div>
+                <div style="padding-bottom: 25px; font-size: 15px;">Blogs</div>
+                <div><select name="" id="language_box">
+                        <option value="#">English</option>
+                        <option value="#">Vietnamese</option>
+                    </select></div>
+            </div>
+            <div style="padding-left: 50px; color: white;">
+                <div style="font-size: 18px;">
+                    <h3>Help</h3>
+                </div>
+                <div style="padding-bottom: 25px; font-size: 15px;">Shipping & Returns</div>
+                <div style="padding-bottom: 25px; font-size: 15px;">Track Order</div>
+                <div style="padding-bottom: 25px; font-size: 15px;">FAQs</div>
+            </div>
+            <div style="padding-left: 50px; color: white;">
+                <div style="font-size: 18px;">
+                    <h3>Contact</h3>
+                </div>
+                <div style="padding-bottom: 25px; font-size: 15px;">Phone:</div>
+                <div style="padding-bottom: 25px; font-size: 15px;"><b>(+1) 123 456 7893</b></div>
+                <div style="padding-bottom: 25px; font-size: 15px;">Email:</div>
+                <div style="padding-bottom: 25px; font-size: 15px;"><b>name@email.com</b></div>
+            </div>
+        </div>
+        <div id="footer_right">
+            <div style="color: white;">
+                <h2>Receive new promotions</h2>
+            </div>
+            <div style="padding-bottom: 15px; color: white;">
+                Duis ea tempor commodo amet reprehende
+            </div>
+            <div id="footer_email">
+                <div>
+                    <input type="text" id="footer_input" placeholder="Input your email">
+                </div>
+                <div>
+                    <button id="subscribe_button"><b>Subscribe</b></button>
+                </div>
+            </div>
+            <div style="padding-top: 30px;">
+                <img src="Twitter 1.png" alt="">
+                <img src="Facebook 1.png" alt="">
+                <img src="LinkedIn 1.png" alt="">
+                <img src="YouTube 1.png" alt="">
+            </div>
+            <div style="color: white; display: flex; padding-top: 30px; padding-left: 50px;">
+                <div>2022 Brand, Inc</div>
+                <li style="padding-left: 10px;">Privacy</li>
+                <li style="padding-left: 10px;">Terms</li>
+                <li style="padding-left: 10px;">Sitemap</li>
             </div>
         </div>
     </div>
